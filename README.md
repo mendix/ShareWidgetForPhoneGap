@@ -36,6 +36,10 @@ CSS Selector for the element that will be used for the onClick event. Make sure 
 
 Name Selector for the element that will be used for the onClick event. See 'Element class selector'. Note: The CSS class selector overrides the Name selector. If you want to use the Name selector, make sure the CSS Selector is empty.
 
+#### Hide outside Phonegap
+
+If the plugin is not present, or the app is not opened in a Phonegap application, you can hide the target element by setting this to ``true``.
+
 ### Data source
 
 #### Message
