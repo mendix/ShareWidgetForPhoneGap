@@ -16,7 +16,7 @@
             <category>Behavior</category>
             <description>Name Selector for the element that will be used for the onClick event. See 'Element class selector'. Note: The CSS class selector overrides the Name selector. If you want to use the Name selector, make sure the CSS Selector is empty.</description>
         </property>
-        <property key="hideOnNotPhoneGap" type="boolean" defaultValue="false">
+        <property key="hideOnNotPhoneGap" type="boolean" defaultValue="true">
             <caption>Hide outside Phonegap</caption>
             <category>Behavior</category>
             <description>If the plugin is not present, or the app is not opened in a Phonegap application, you can hide the target element by setting this to true.</description>
